@@ -5,6 +5,11 @@ This project examines potential socioeconomic and demographic biases in ride-hai
 
 ## Requirements
 Packages: Python 3.6+, `pandas`, `numpy`, `scikit-learn`, `matplotlib`, `seaborn`. 
+---
+
+## Data Setup
+
+You can download the file from [https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page]. Under year 2024 `Janaury` click `High Volume For-Hire Vehicle Trip Records (PARQUET)`. 
 
 ---
 ## Setup Instructions
@@ -44,9 +49,3 @@ If you'd like to run the project directly on your local machine:
 
 6. Run the Notebook:
    Execute the cells sequentially to perform bias mitigation analysis.
-
----
-
-## Data Setup
-
-You can download the file from [https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page]. Under year 2024 `Janaury` click `High Volume For-Hire Vehicle Trip Records (PARQUET)`. 
