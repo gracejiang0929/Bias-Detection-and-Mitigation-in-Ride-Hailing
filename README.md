@@ -6,47 +6,17 @@ This project examines potential socioeconomic and demographic biases in ride-hai
 ## Requirements
 Packages: Python 3.6+, `pandas`, `numpy`, `scikit-learn`, `matplotlib`, `seaborn`. 
 
+---
 ## Setup Instructions
 Build and Run Locally
 If you'd like to run the project directly on your local machine:
-
-Clone the Repository Clone this repository to your local machine using the following command:
-
-git clone https://github.com/gracejiang0929/FA24_DSC180A_Repo.git
-cd FA24_DSC180A_Repo
-Create a Virtual Environment (Optional but Recommended):
-
-python -m venv venv
-Activate the Virtual Environment:
-On macOS/Linux:
-source venv/bin/activate
-On Windows:
-venv\Scripts\activate
-Install Dependencies:
-
-pip install -r requirements.txt
-Launch Jupyter Notebook:
-
-jupyter notebook
-Open the Notebook: In the Jupyter interface, navigate to final_notebook.ipynb and open it.
-
-Run the Notebook: Execute the cells sequentially to perform bias mitigation analysis.
-
-Data Setup
-The file h181.csv is required to run the project but is too large to include in the repository.
-
-You can download the file from [https://drive.google.com/file/d/1GESPjTTEgwczg4AJVGqvzLJsFhBZky7f/view?usp=drive_link] and place it in the data/raw/ directory.
-
-IMPORTANT In order to run Section 3. Model Development without Debiasing, you need to follow below steps:
-
---- 
 
 1. Clone the Repository
    Clone this repository to your local machine using the following command: 
    
    ```bash
-   git clone https://github.com/gracejiang0929/FA24_DSC180A_Repo.git
-   cd FA24_DSC180A_Repo
+   git clone https://github.com/gracejiang0929/Bias-Detection-and-Mitigation-in-Ride-Hailing.git
+   cd Bias-Detection-and-Mitigation-in-Ride-Hailing
 
 2. Create a Virtual Environment (Optional but Recommended):
    ```bash
@@ -70,7 +40,13 @@ IMPORTANT In order to run Section 3. Model Development without Debiasing, you ne
    jupyter notebook
 
 5. Open the Notebook:
-   In the Jupyter interface, navigate to `final_notebook.ipynb` and open it.
+   In the Jupyter interface, navigate to `tlc_tester.ipynb` or `model_implement` and open it.
 
 6. Run the Notebook:
    Execute the cells sequentially to perform bias mitigation analysis.
+
+---
+## Data Setup
+The file `h181.csv` is required to run the project but is too large to include in the repository.
+
+You can download the file from [https://drive.google.com/file/d/1GESPjTTEgwczg4AJVGqvzLJsFhBZky7f/view?usp=drive_link] and place it in the `data/raw/` directory.
