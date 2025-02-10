@@ -46,7 +46,7 @@ If you'd like to run the project directly on your local machine:
    Execute the cells sequentially to perform bias mitigation analysis.
 
 ---
-## Data Setup
-The file `h181.csv` is required to run the project but is too large to include in the repository.
 
-You can download the file from [https://drive.google.com/file/d/1GESPjTTEgwczg4AJVGqvzLJsFhBZky7f/view?usp=drive_link] and place it in the `data/raw/` directory.
+## Data Setup
+
+You can download the file from [https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page]. Under year 2024 Janaury click `High Volume For-Hire Vehicle Trip Records (PARQUET)`. 
