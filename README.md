@@ -49,4 +49,4 @@ If you'd like to run the project directly on your local machine:
 
 ## Data Setup
 
-You can download the file from [https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page]. Under year 2024 Janaury click `High Volume For-Hire Vehicle Trip Records (PARQUET)`. 
+You can download the file from [https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page]. Under year 2024 `Janaury` click `High Volume For-Hire Vehicle Trip Records (PARQUET)`. 
